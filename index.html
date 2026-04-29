@@ -1,114 +1,36 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bridge Academy</title>
     <link href="https://db.onlinewebfonts.com/c/529f798e16e6f988884964645229649b?family=Facon" rel="stylesheet" type="text/css"/>
     <style>
-        /* تنسيق الموقع بالكامل - Mode Dark */
-        body {
-            background-color: #000000;
-            color: #ffffff;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-
-        /* تنسيق اللوجو بالخط اللي اخترته */
-        .facon-logo {
-            font-family: "Facon", sans-serif !important;
-            font-size: 35px;
-            color: #ffffff !important;
-            letter-spacing: 4px;
-            text-transform: uppercase;
-            margin: 40px 0;
-            display: block;
-            text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
-        }
-
-        /* الجزء التعريفي */
-        .hero {
-            padding: 50px 20px;
-            background: #111111;
-            border-radius: 20px;
-            margin: 15px;
-            border: 1px solid #222;
-        }
-
-        .hero h2 { margin-top: 0; color: #fff; }
-
-        /* تنسيق الزرار */
-        .btn {
-            background: #ff4b2b;
-            color: white;
-            padding: 12px 35px;
-            text-decoration: none;
-            border-radius: 50px;
-            font-weight: bold;
-            display: inline-block;
-            margin-top: 15px;
-            transition: 0.3s;
-        }
-
-        /* حاوية الفيديو */
-        .video-container {
-            max-width: 90%;
-            margin: 30px auto;
-            background: #1a1a1a;
-            padding: 15px;
-            border-radius: 15px;
-            border: 1px solid #333;
-        }
-
-        .video-placeholder {
-            background: #000;
-            height: 200px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 10px;
-            color: #555;
-            border: 1px dashed #444;
-        }
-
-        /* صندوق نطق الكلام */
-        .accent-box {
-            background: #222;
-            border-right: 5px solid #ff4b2b;
-            padding: 20px;
-            margin-top: 20px;
-            text-align: right;
-            direction: rtl;
-            line-height: 1.8;
-        }
-
-        .accent-box strong { color: #ff4b2b; }
+        body { background-color: #000; color: #fff; font-family: sans-serif; margin: 0; text-align: center; }
+        .facon-logo { font-family: "Facon", sans-serif !important; font-size: 35px; color: #fff !important; letter-spacing: 4px; margin: 40px 0; display: block; }
+        .hero { padding: 30px 20px; background: #111; border-radius: 15px; margin: 15px; border: 1px solid #222; }
+        .btn { background: #ff4b2b; color: white; padding: 12px 30px; text-decoration: none; border-radius: 50px; font-weight: bold; display: inline-block; margin-top: 15px; }
+        .video-container { max-width: 95%; margin: 20px auto; background: #1a1a1a; padding: 10px; border-radius: 15px; border: 1px solid #333; }
+        /* تنسيق مشغل الفيديو */
+        iframe { width: 100%; height: 250px; border-radius: 10px; border: none; }
+        .accent-box { background: #222; border-right: 5px solid #ff4b2b; padding: 15px; margin-top: 15px; text-align: right; direction: rtl; }
     </style>
 </head>
 <body>
-
-    <header>
-        <h1 class="facon-logo">BRIDGE ACADEMY</h1>
-    </header>
+    <header><h1 class="facon-logo">BRIDGE ACADEMY</h1></header>
 
     <div class="hero">
         <h2>اتقن لكنة الشارع الأمريكي 🎬</h2>
         <p>تعلم كيف يتحدث الأمريكيون فعلياً من قلب الأفلام.</p>
-        <a href="#" class="btn">ابدأ التعلم الآن</a>
+        <a href="https://t.me/your_telegram_channel" class="btn">انضم لقناة التليجرام</a>
     </div>
 
     <div class="video-container">
-        <div class="video-placeholder">
-            <p>مساحة عرض مقطع الفيلم</p>
-        </div>
+        <iframe src="https://drive.google.com/file/d/1XoV2jDAUrbF3vKPDhxJYEs2TA8OHExCg/preview" allow="autoplay"></iframe>
+        
         <div class="accent-box">
-            <strong>نطق الشارع الأمريكي:</strong> "What'cha gonna do about it?" <br>
-            <strong>النطق الأكاديمي:</strong> What are you going to do about it?
+            <strong>درس اليوم:</strong> اسمع المقطع ده كويس وركز في نطق الكلمات المدموجة.
         </div>
     </div>
-
 </body>
 </html>
